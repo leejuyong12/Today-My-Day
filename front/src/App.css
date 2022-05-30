@@ -1,0 +1,65 @@
+@import '~antd/dist/antd.css';
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+@font-face {
+  font-family: '나눔손글씨 동화또박';
+  src: url('./font/나눔손글씨 동화또박.ttf');
+}
+@font-face {
+  font-family: 'Maru';
+  src: url('./font/MaruBuri-Regular.ttf');
+}
+.App {
+  margin: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  /* font-family: 'Maru'; */
+  /* font-family: '나눔손글씨 동화또박'; */
+}
+
+.Carousel {
+  width: 90%;
+  margin: 10rem auto;
+}
+
+.slide img {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.6);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg :hover {
+  color: aqua;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
