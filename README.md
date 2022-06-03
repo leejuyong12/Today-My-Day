@@ -1,4 +1,4 @@
-![logo](C:\Users\multicampus\Desktop\지금나의 하루는\S06P31C205\front\public\images\logo.png)
+
 
 # 🖌️ 지금, 나의 하루는
 
